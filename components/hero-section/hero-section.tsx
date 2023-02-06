@@ -5,7 +5,7 @@ import BackgroundCircle from "@/components/hero-section/backgroundCircle";
 
 const HeroSection = () => {
     const [text, count] = useTypewriter({
-        words: ['Hi! My Name is Khizar', 'In Future Full Stack Developer '],
+        words: ['Hi! My Name is Khizar', 'In Future Full Stack Developer', 'InshaAllah'],
         loop: true,
         delaySpeed: 2000,
         onLoopDone: () => console.log(`loop completed after 3 runs.`)
